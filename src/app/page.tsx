@@ -45,7 +45,7 @@ const PERSONAL = {
   bachelorSchool: 'University of the East',
 }
 
-const TARGET_ROLES = ['Data Analyst', 'Business Intelligence Analyst', 'Analytics Consultant']
+const TARGET_ROLES = ['Junior Data Analyst', 'Social Media Analyst', 'Listening Coordinator']
 
 const STATS = [
   { value: '10+ yrs', label: 'Marketing operations & social listening', sub: 'Across 5 firms in BPO and shared services' },
@@ -352,7 +352,7 @@ function StickyNav() {
           <a href="#flight" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
             Project 02
           </a>
-<a href="#social" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
+          <a href="#social" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
             Project 03
           </a>
           <a href="#contact" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
@@ -510,10 +510,10 @@ function AboutSection() {
               I bring to analytics roles what a fresh graduate cannot: a decade of practice
               translating complex data into clear, actionable business recommendations for
               real stakeholders, plus the technical depth to now do it with modern ML and
-              forecasting methods. I am targeting <span className="font-semibold text-slate-900">Data
-              Analyst</span>, <span className="font-semibold text-slate-900">Business Intelligence
-              Analyst</span>, and <span className="font-semibold text-slate-900">Analytics
-              Consultant</span> roles where I can combine both halves of that background.
+              forecasting methods. I am targeting <span className="font-semibold text-slate-900">Junior
+              Data Analyst</span>, <span className="font-semibold text-slate-900">Social Media
+              Analyst</span>, and <span className="font-semibold text-slate-900">Listening
+              Coordinator</span> roles where I can combine both halves of that background.
             </p>
           </div>
         </div>
@@ -948,8 +948,8 @@ function ContactSection() {
           Let&rsquo;s talk
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-300 md:text-lg">
-          I am actively interviewing for Data Analyst, Business Intelligence Analyst, and
-          Analytics Consultant roles. If your team needs someone who can run a regression
+          I am actively interviewing for Junior Data Analyst, Social Media Analyst, and
+          Listening Coordinator roles. If your team needs someone who can run a regression
           pipeline <em>and</em> write the executive summary on top of it — backed by a decade
           of marketing-operations experience — I would love to hear from you.
         </p>
@@ -1066,4 +1066,3 @@ export default function Home() {
     </div>
   )
 }
-          
