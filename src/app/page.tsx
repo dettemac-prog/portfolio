@@ -252,8 +252,7 @@ const PROJECT_2 = {
   ],
   techStack: [
     'Python', 'pandas', 'NumPy', 'statsmodels (ETSModel)', 'matplotlib',
-    'BTS TranStats
-     API', 'kagglehub', 'Jupyter',
+    'BTS TranStats API', 'kagglehub', 'Jupyter',
   ],
   takeaways: [
     'Practiced framing an analytics question in enterprise terms — staffing, schedule buffers, decision horizons — instead of just "predict the number."',
@@ -353,7 +352,7 @@ function StickyNav() {
           <a href="#flight" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
             Project 02
           </a>
-          <a href="#social" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
+<a href="#social" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
             Project 03
           </a>
           <a href="#contact" className="text-sm font-medium text-slate-600 hover:text-[var(--brand-navy)] transition-colors">
@@ -511,8 +510,7 @@ function AboutSection() {
               I bring to analytics roles what a fresh graduate cannot: a decade of practice
               translating complex data into clear, actionable business recommendations for
               real stakeholders, plus the technical depth to now do it with modern ML and
-              forecasting 
-              methods. I am targeting <span className="font-semibold text-slate-900">Data
+              forecasting methods. I am targeting <span className="font-semibold text-slate-900">Data
               Analyst</span>, <span className="font-semibold text-slate-900">Business Intelligence
               Analyst</span>, and <span className="font-semibold text-slate-900">Analytics
               Consultant</span> roles where I can combine both halves of that background.
@@ -845,8 +843,7 @@ function ProjectSection({ project }: { project: typeof PROJECT_1 }) {
                     height={900}
                     className="h-auto w-full"
                   />
-                  <figcaption className="border-t border-[var(--brand-rule)] bg-slate-50 px-4 py-2 text
-                  -[11px] text-slate-600">
+                  <figcaption className="border-t border-[var(--brand-rule)] bg-slate-50 px-4 py-2 text-[11px] text-slate-600">
                     Figure 8 · Audience age cohort analysis. The 35–45 cohort engaged deeply
                     (ER 29.78%, frequency 4.30); 18–34 clicked more often (CTR 0.75%) but
                     engaged far less (ER 7.71%).
@@ -1069,5 +1066,4 @@ export default function Home() {
     </div>
   )
 }
-
-              
+          
